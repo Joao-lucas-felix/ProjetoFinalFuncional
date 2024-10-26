@@ -28,4 +28,6 @@ defmodule ProjetoFinalWeb.FallbackController do
     |> put_view(json: ProjetoFinalWeb.ErrorJSON)
     |> render(:error, message: message)
   end
+
+
 end

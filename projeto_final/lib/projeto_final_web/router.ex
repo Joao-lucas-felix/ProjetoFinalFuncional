@@ -14,6 +14,8 @@ defmodule ProjetoFinalWeb.Router do
     get "/hello", HelloApiController, :index
 
     resources "/books", BooksController, only: [:create, :update, :delete, :show]
+    resources "/users", UsersController, only: [:create, :update, :delete, :show]
+    resources "/pedidos", PedidosController, only: [:create, :update, :delete, :show]
   end
 
   # Enable LiveDashboard in development

@@ -1,4 +1,4 @@
-defmodule ProjetoFinal.Pedidos.Pedidos do
+defmodule ProjetoFinal.Pedidos.Pedido do
   use Ecto.Schema
   import Ecto.Changeset
 
